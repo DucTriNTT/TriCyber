@@ -1,0 +1,20 @@
+# Thư mục thư viện nặng
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Tệp cấu hình chứa mật khẩu database quan trọng
+.env
+server/.env
+*.env
+
+# Thư mục build
+dist/
+build/
+client/dist/
+
+# Tệp tạm hệ thống
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
